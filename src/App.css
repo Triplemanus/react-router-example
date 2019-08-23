@@ -1,24 +1,43 @@
+/*
+blue:   #4CDEF5
+green:  #A4D555
+pink:   #FF5992
+purple  #841983
+*/
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: #A4D555;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.nav {
+  width: 30%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.active {
+  /*background-color: #FF5992;*/
+  background-color: #841983;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #A4D555
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+header {
+  align-items: center;
+  background-color: #A4D555;
+  display: flex;
+  font-size: 1.5em;
+  height: 10vh;
+  justify-content: space-around;
+  width: 100%;
 }

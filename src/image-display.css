@@ -1,0 +1,52 @@
+/*
+blue:   #4CDEF5
+green:  #A4D555
+pink:   #FF5992
+purple  #841983
+*/
+
+
+.app-img {
+  width: 30%;
+  height: 300px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  transition-duration: .3s
+}
+
+.app-img:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transform: rotate(2deg);
+  transition: all ease-in-out .3s;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+}
+
+.app-img-no-hover {
+  width: 30%;
+  height: 300px;
+  margin: 0px 5px;
+  border-radius: 5px
+}
+
+ .creature-bio {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.back-btn {
+  display: block;
+  margin: 10px auto;
+}
+
+.back-btn:visited {
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  color: #A4D555;
+}
